@@ -113,7 +113,68 @@ const invitations = [
 
         message:
             "Hola Dulce Invitación, me interesa una invitación digital de boda como la que vi en su catálogo."
-    }
+    },
+
+    {
+
+    id: 5,
+
+    title: "XV Años",
+    
+    category: "xv",
+
+    categoryName: "XV Años",
+
+    subtitle: "Una celebración llena de magia y elegancia",
+
+    url: "https://dvidblpz.github.io/invitacion_XV/",
+
+    icon: "fa-crown",
+
+    image: "./images/xv.jpg",
+
+    message: "Hola Dulce Invitación, me interesa una invitación digital de XV Años como la que vi en su catálogo."
+},
+
+{
+    id: 6,
+    title: "Revelación de Bebé",
+
+    category: "revelacion",
+
+    categoryName: "Revelación",
+
+    subtitle: "Una sorpresa que estamos a punto de revelar",
+
+    url: "https://dvidblpz.github.io/invitacion_revelacion/",
+
+    icon: "fa-baby",
+
+    image: "./images/revelacion.jpg",
+
+    message: "Hola Dulce Invitación, me interesa una invitación digital para revelación de bebé como la que vi en su catálogo."
+},
+
+{
+    id: 7,
+
+    title: "Baby Shower Osito",
+
+    category: "baby-shower",
+
+    categoryName: "Baby Shower",
+
+    subtitle: "Érase una vez una historia llena de amor",
+
+    url: "https://dvidblpz.github.io/invitacion_osito/",
+
+    icon: "fa-paw",
+
+    image: "./images/babyshower-osito.jpg",
+
+    message: "Hola Dulce Invitación, me interesa una invitación digital de Baby Shower estilo osito como la que vi en su catálogo."
+}
+
 
 ];
 

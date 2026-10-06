@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Aviso de Privacidad de Dulce Invitación. Información sobre el tratamiento y protección de datos personales.">
+
+    <meta name="robots" content="index, follow">
+
+    <title>Aviso de Privacidad | Dulce Invitación</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Montserrat:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background: #0b0b0d;
+            color: #eeeeee;
+            line-height: 1.8;
+        }
+
+        a {
+            color: #d7b56d;
+            text-decoration: none;
+            transition: 0.3s ease;
+        }
+
+        a:hover {
+            color: #f0d28d;
+        }
+
+        /* ========================================
+           HEADER
+        ======================================== */
+
+        .header {
+            position: relative;
+            padding: 70px 20px 60px;
+            text-align: center;
+            background:
+                radial-gradient(
+                    circle at top,
+                    rgba(215, 181, 109, 0.16),
+                    transparent 45%
+                ),
+                #0b0b0d;
+            border-bottom: 1px solid rgba(215, 181, 109, 0.2);
+        }
+
+        .brand {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: clamp(2.5rem, 6vw, 4.5rem);
+            font-weight: 700;
+            color: #d7b56d;
+            letter-spacing: 1px;
+        }
+
+        .tagline {
+            margin-top: 8px;
+            color: #aaa;
+            font-size: 0.9rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        .page-title {
+            margin-top: 40px;
+            font-family: 'Cormorant Garamond', serif;
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            color: #ffffff;
+        }
+
+        .updated {
+            margin-top: 10px;
+            color: #888;
+            font-size: 0.85rem;
+        }
+
+        /* ========================================
+           CONTENEDOR
+        ======================================== */
+
+        .container {
+            width: min(100% - 40px, 950px);
+            margin: 0 auto;
+            padding: 70px 0;
+        }
+
+        /* ========================================
+           INTRO
+        ======================================== */
+
+        .intro {
+            background: rgba(255, 255, 255, 0.025);
+            border: 1px solid rgba(215, 181, 109, 0.14);
+            border-radius: 18px;
+            padding: 30px;
+            margin-bottom: 45px;
+        }
+
+        .intro p {
+            color: #cfcfcf;
+        }
+
+        /* ========================================
+           SECCIONES
+        ======================================== */
+
+        .section {
+            margin-bottom: 48px;
+        }
+
+        .section-number {
+            display: inline-block;
+            margin-bottom: 8px;
+            color: #d7b56d;
+            font-size: 0.8rem;
+            font-weight: 700;
+            letter-spacing: 2px;
+        }
+
+        h2 {
+            font-family: 'Cormorant Garamond', serif;
+            color: #ffffff;
+            font-size: clamp(1.8rem, 4vw, 2.5rem);
+            margin-bottom: 15px;
+        }
+
+        h3 {
+            color: #e4c985;
+            font-size: 1rem;
+            margin: 22px 0 8px;
+        }
+
+        p {
+            color: #c5c5c5;
+            margin-bottom: 15px;
+        }
+
+        ul {
+            margin: 15px 0 20px 22px;
+        }
+
+        li {
+            color: #c5c5c5;
+            margin-bottom: 8px;
+            padding-left: 5px;
+        }
+
+        strong {
+            color: #eeeeee;
+        }
+
+        /* ========================================
+           DESTACADO
+        ======================================== */
+
+        .highlight {
+            border-left: 3px solid #d7b56d;
+            background: rgba(215, 181, 109, 0.06);
+            padding: 22px 25px;
+            border-radius: 0 12px 12px 0;
+            margin: 20px 0;
+        }
+
+        .highlight p {
+            margin-bottom: 0;
+        }
+
+        /* ========================================
+           CONTACTO
+        ======================================== */
+
+        .contact-box {
+            margin-top: 25px;
+            padding: 30px;
+            border-radius: 18px;
+            border: 1px solid rgba(215, 181, 109, 0.25);
+            background:
+                linear-gradient(
+                    145deg,
+                    rgba(215, 181, 109, 0.08),
+                    rgba(255, 255, 255, 0.02)
+                );
+            text-align: center;
+        }
+
+        .contact-box h2 {
+            margin-bottom: 10px;
+        }
+
+        .email {
+            display: inline-block;
+            margin-top: 8px;
+            font-weight: 600;
+            word-break: break-word;
+        }
+
+        /* ========================================
+           BOTÓN REGRESAR
+        ======================================== */
+
+        .back-container {
+            text-align: center;
+            padding: 0 20px 70px;
+        }
+
+        .back-button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 48px;
+            padding: 12px 24px;
+            border: 1px solid rgba(215, 181, 109, 0.55);
+            border-radius: 999px;
+            color: #d7b56d;
+            font-size: 0.9rem;
+            font-weight: 600;
+            transition: 0.3s ease;
+        }
+
+        .back-button:hover {
+            background: #d7b56d;
+            color: #0b0b0d;
+            transform: translateY(-2px);
+        }
+
+        /* ========================================
+           FOOTER
+        ======================================== */
+
+        footer {
+            border-top: 1px solid rgba(255, 255, 255, 0.08);
+            padding: 30px 20px;
+            text-align: center;
+            color: #777;
+            font-size: 0.8rem;
+        }
+
+        footer strong {
+            color: #d7b56d;
+        }
+
+        /* ========================================
+           RESPONSIVE
+        ======================================== */
+
+        @media (max-width: 600px) {
+
+            .header {
+                padding: 50px 18px 45px;
+            }
+
+            .container {
+                width: min(100% - 28px, 950px);
+                padding: 45px 0;
+            }
+
+            .intro {
+                padding: 22px;
+            }
+
+            .section {
+                margin-bottom: 38px;
+            }
+
+            .highlight {
+                padding: 18px;
+            }
+
+            .contact-box {
+                padding: 24px 18px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ========================================
+         ENCABEZADO
+    ======================================== -->
+
+    <header class="header">
+
+        <div class="brand">
+            Dulce Invitación
+        </div>
+
+        <div class="tagline">
+            Invitaciones digitales que cuentan historias.
+        </div>
+
+        <h1 class="page-title">
+            Aviso de Privacidad
+        </h1>
+
+        <p class="updated">
+            Última actualización: 6 de octubre de 2026
+        </p>
+
+    </header>
+
+
+    <!-- ========================================
+         CONTENIDO
+    ======================================== -->
+
+    <main class="container">
+
+        <div class="intro">
+
+            <p>
+                En <strong>Dulce Invitación</strong> nos comprometemos a
+                respetar y proteger la privacidad de nuestros clientes y
+                visitantes. El presente Aviso de Privacidad explica de
+                manera clara qué datos personales podemos solicitar,
+                para qué los utilizamos y cómo puedes ejercer tus derechos
+                respecto de dichos datos.
+            </p>
+
+        </div>
+
+
+        <!-- 1 -->
+
+        <section class="section">
+
+            <span class="section-number">01</span>
+
+            <h2>Responsable del tratamiento de los datos</h2>
+
+            <p>
+                El responsable del tratamiento de los datos personales
+                proporcionados a través de <strong>Dulce Invitación</strong>
+                es:
+            </p>
+
+            <div class="highlight">
+
+                <p>
+                    <strong>Responsable:</strong> David Bernal Paz
+                </p>
+
+                <p>
+                    <strong>Marca:</strong> Dulce Invitación
+                </p>
+
+                <p>
+                    <strong>Correo electrónico:</strong>
+                    <a href="mailto:dulceinvitacion@proton.me">
+                        dulceinvitacion@proton.me
+                    </a>
+                </p>
+
+            </div>
+
+            <p>
+                Este medio de contacto se encuentra disponible para
+                consultas relacionadas con el tratamiento y protección
+                de datos personales.
+            </p>
+
+        </section>
+
+
+        <!-- 2 -->
+
+        <section class="section">
+
+            <span class="section-number">02</span>
+
+            <h2>Datos personales que podemos solicitar</h2>
+
+            <p>
+                Para poder atender solicitudes, elaborar cotizaciones y
+                personalizar invitaciones digitales, podemos solicitar
+                únicamente los datos necesarios para prestar el servicio.
+            </p>
+
+            <p>Entre ellos pueden encontrarse:</p>
+
+            <ul>
+                <li>Nombre.</li>
+                <li>Número de teléfono.</li>
+                <li>Correo electrónico.</li>
+                <li>Fecha del evento.</li>
+                <li>Tipo de evento.</li>
+                <li>Información que el cliente solicite incluir en la invitación.</li>
+                <li>Fotografías proporcionadas por el cliente para la personalización.</li>
+            </ul>
+
+            <p>
+                El cliente será responsable de proporcionar información
+                correcta y, cuando corresponda, de contar con las
+                autorizaciones necesarias para proporcionar fotografías
+                o información de terceras personas.
+            </p>
+
+        </section>
+
+
+        <!-- 3 -->
+
+        <section class="section">
+
+            <span class="section-number">03</span>
+
+            <h2>Finalidades del tratamiento</h2>
+
+            <p>
+                Los datos personales podrán utilizarse para las siguientes
+                finalidades principales:
+            </p>
+
+            <ul>
+                <li>Atender solicitudes de información.</li>
+                <li>Elaborar cotizaciones de invitaciones digitales.</li>
+                <li>Personalizar invitaciones digitales.</li>
+                <li>Dar seguimiento a solicitudes y proyectos.</li>
+                <li>Contactar al cliente respecto de su proyecto.</li>
+                <li>Coordinar cambios, revisiones y detalles de la invitación.</li>
+                <li>Realizar la entrega del proyecto contratado.</li>
+            </ul>
+
+        </section>
+
+
+        <!-- 4 -->
+
+        <section class="section">
+
+            <span class="section-number">04</span>
+
+            <h2>Fotografías y contenido proporcionado por el cliente</h2>
+
+            <p>
+                Para determinados proyectos, el cliente puede proporcionar
+                fotografías, nombres, textos, fechas y otros elementos que
+                serán incorporados a su invitación digital.
+            </p>
+
+            <div class="highlight">
+
+                <p>
+                    <strong>
+                        Las fotografías proporcionadas por los clientes
+                        no serán conservadas como un archivo permanente
+                        después de finalizar el proceso de personalización
+                        y entrega de la invitación.
+                    </strong>
+                </p>
+
+            </div>
+
+            <p>
+                Dichas fotografías serán utilizadas únicamente para la
+                finalidad para la que fueron proporcionadas, es decir,
+                la elaboración y personalización de la invitación
+                correspondiente.
+            </p>
+
+            <p>
+                Dulce Invitación no utilizará fotografías proporcionadas
+                por sus clientes para fines publicitarios, comerciales o
+                de portafolio sin contar previamente con la autorización
+                correspondiente.
+            </p>
+
+        </section>
+
+
+        <!-- 5 -->
+
+        <section class="section">
+
+            <span class="section-number">05</span>
+
+            <h2>Medios de contacto</h2>
+
+            <p>
+                Para atender solicitudes y dar seguimiento a los proyectos,
+                podremos comunicarnos con el cliente mediante los datos de
+                contacto que éste proporcione.
+            </p>
+
+            <p>
+                Cuando el cliente decida utilizar plataformas externas
+                para comunicarse con nosotros, como servicios de mensajería
+                o redes sociales, el tratamiento de información realizado
+                dentro de dichas plataformas estará sujeto también a las
+                políticas y condiciones de privacidad de sus respectivos
+                proveedores.
+            </p>
+
+        </section>
+
+
+        <!-- 6 -->
+
+        <section class="section">
+
+            <span class="section-number">06</span>
+
+            <h2>Pagos</h2>
+
+            <p>
+                Los pagos relacionados con los servicios de
+                <strong>Dulce Invitación</strong> podrán realizarse
+                mediante:
+            </p>
+
+            <ul>
+                <li>Transferencia bancaria.</li>
+                <li>Depósito.</li>
+            </ul>
+
+            <p>
+                Dulce Invitación no solicita ni requiere datos completos
+                de tarjetas bancarias para realizar el servicio.
+            </p>
+
+        </section>
+
+
+        <!-- 7 -->
+
+        <section class="section">
+
+            <span class="section-number">07</span>
+
+            <h2>Uso de estadísticas y herramientas de seguimiento</h2>
+
+            <p>
+                Actualmente, Dulce Invitación no utiliza sistemas propios
+                de estadísticas, herramientas de analítica, Meta Pixel,
+                Facebook Pixel ni mecanismos similares destinados a
+                elaborar perfiles estadísticos de los visitantes del sitio.
+            </p>
+
+            <p>
+                Si en el futuro se incorporaran herramientas de análisis,
+                medición o publicidad que impliquen un tratamiento adicional
+                de información, este aviso será actualizado para informar
+                sobre dichas modificaciones cuando corresponda.
+            </p>
+
+        </section>
+
+
+        <!-- 8 -->
+
+        <section class="section">
+
+            <span class="section-number">08</span>
+
+            <h2>Cookies y almacenamiento local</h2>
+
+            <p>
+                El sitio web puede utilizar tecnologías necesarias para
+                permitir determinadas funciones de navegación y guardar
+                preferencias del visitante.
+            </p>
+
+            <p>
+                En particular, algunas preferencias pueden almacenarse
+                mediante <strong>localStorage</strong> del navegador.
+                Esta tecnología permite guardar información directamente
+                en el dispositivo del usuario y no constituye una cookie
+                por sí misma.
+            </p>
+
+            <p>
+                El usuario puede administrar o eliminar la información
+                almacenada localmente mediante las opciones de configuración
+                de su navegador.
+            </p>
+
+        </section>
+
+
+        <!-- 9 -->
+
+        <section class="section">
+
+            <span class="section-number">09</span>
+
+            <h2>Protección de los datos personales</h2>
+
+            <p>
+                Dulce Invitación procura implementar medidas razonables
+                de seguridad administrativas y técnicas para proteger los
+                datos personales contra pérdida, acceso no autorizado,
+                alteración, divulgación o uso indebido.
+            </p>
+
+            <p>
+                Sin embargo, ningún sistema de transmisión o almacenamiento
+                electrónico puede garantizar seguridad absoluta. Por ello,
+                recomendamos al usuario evitar enviar información que no sea
+                necesaria para la prestación del servicio.
+            </p>
+
+        </section>
+
+
+        <!-- 10 -->
+
+        <section class="section">
+
+            <span class="section-number">10</span>
+
+            <h2>Conservación de los datos</h2>
+
+            <p>
+                Los datos personales serán conservados únicamente durante
+                el tiempo necesario para atender la finalidad para la cual
+                fueron proporcionados y, cuando corresponda, durante el
+                periodo necesario para cumplir obligaciones legales o
+                administrativas.
+            </p>
+
+            <p>
+                La información que deje de ser necesaria podrá ser eliminada
+                o dejar de utilizarse de acuerdo con las posibilidades
+                técnicas y las obligaciones aplicables.
+            </p>
+
+        </section>
+
+
+        <!-- 11 -->
+
+        <section class="section">
+
+            <span class="section-number">11</span>
+
+            <h2>Derechos del titular de los datos</h2>
+
+            <p>
+                El titular de los datos personales podrá solicitar
+                información respecto del tratamiento de sus datos y,
+                cuando corresponda, ejercer los derechos reconocidos por
+                la legislación aplicable en materia de protección de datos
+                personales.
+            </p>
+
+            <p>
+                Las solicitudes podrán relacionarse, entre otros aspectos,
+                con:
+            </p>
+
+            <ul>
+                <li>Conocer qué datos personales son tratados.</li>
+                <li>Solicitar la corrección de datos incorrectos.</li>
+                <li>Solicitar la eliminación de información cuando proceda.</li>
+                <li>Solicitar que se limite el uso de determinados datos.</li>
+                <li>Solicitar información sobre el tratamiento realizado.</li>
+            </ul>
+
+            <p>
+                Para realizar una solicitud, el titular deberá enviar un
+                mensaje al correo:
+            </p>
+
+            <div class="highlight">
+
+                <p>
+                    <a href="mailto:dulceinvitacion@proton.me">
+                        dulceinvitacion@proton.me
+                    </a>
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- 12 -->
+
+        <section class="section">
+
+            <span class="section-number">12</span>
+
+            <h2>Revocación del consentimiento</h2>
+
+            <p>
+                Cuando el tratamiento de los datos personales requiera
+                consentimiento, el titular podrá solicitar su revocación
+                mediante comunicación enviada al correo electrónico de
+                contacto.
+            </p>
+
+            <p>
+                La solicitud será analizada y atendida considerando la
+                naturaleza de los datos, la finalidad del tratamiento y
+                cualquier obligación legal o contractual que pudiera
+                resultar aplicable.
+            </p>
+
+        </section>
+
+
+        <!-- 13 -->
+
+        <section class="section">
+
+            <span class="section-number">13</span>
+
+            <h2>Actualizaciones del Aviso de Privacidad</h2>
+
+            <p>
+                Dulce Invitación podrá actualizar el presente Aviso de
+                Privacidad cuando resulte necesario debido a cambios en
+                sus servicios, procesos, tecnologías utilizadas o
+                disposiciones aplicables.
+            </p>
+
+            <p>
+                La versión vigente estará disponible en esta misma página.
+            </p>
+
+        </section>
+
+
+        <!-- 14 -->
+
+        <section class="section">
+
+            <span class="section-number">14</span>
+
+            <h2>Contacto</h2>
+
+            <p>
+                Si tienes preguntas, comentarios o solicitudes relacionadas
+                con este Aviso de Privacidad o con el tratamiento de tus
+                datos personales, puedes comunicarte con nosotros.
+            </p>
+
+            <div class="contact-box">
+
+                <h2>Dulce Invitación</h2>
+
+                <p>
+                    Responsable: <strong>David Bernal Paz</strong>
+                </p>
+
+                <a
+                    class="email"
+                    href="mailto:dulceinvitacion@proton.me"
+                >
+                    dulceinvitacion@proton.me
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ========================================
+         REGRESAR
+    ======================================== -->
+
+    <div class="back-container">
+
+        <a
+            href="index.html"
+            class="back-button"
+        >
+            ← Regresar a Dulce Invitación
+        </a>
+
+    </div>
+
+
+    <!-- ========================================
+         FOOTER
+    ======================================== -->
+
+    <footer>
+
+        <p>
+            © <span id="year"></span>
+            <strong>Dulce Invitación</strong>.
+            Todos los derechos reservados.
+        </p>
+
+    </footer>
+
+
+    <script>
+        document.getElementById("year").textContent =
+            new Date().getFullYear();
+    </script>
+
+</body>
+</html>

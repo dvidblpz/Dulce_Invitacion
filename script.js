@@ -173,6 +173,26 @@ const invitations = [
     image: "./images/babyshower-osito.jpg",
 
     message: "Hola Dulce Invitación, me interesa una invitación digital de Baby Shower estilo osito como la que vi en su catálogo."
+}, 
+
+   {
+    id: 8,
+
+    title: "Cumpleaños Western",
+
+    category: "cumpleanos",
+
+    categoryName: "Cumpleaños",
+
+    subtitle: "Ensilla tu caballo, ajusta tu sombrero y ven a celebrar.",
+
+    url: "https://dvidblpz.github.io/invitacion_western/",
+
+    icon: "fa-paw",
+
+    image: "./images/western.jpg",
+
+    message: "Hola Dulce Invitación, me interesa una invitación digital de Cumpleaños estilo Western como la que vi en su catálogo."
 }
 
 

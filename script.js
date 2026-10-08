@@ -193,7 +193,29 @@ const invitations = [
     image: "./images/western.jpg",
 
     message: "Hola Dulce Invitación, me interesa una invitación digital de Cumpleaños estilo Western como la que vi en su catálogo."
-}
+}, 
+   {
+        id: 9,
+
+        title: "Baby Shower Tematica PooH",
+
+        category: "baby-shower",
+
+        categoryName: "Baby Shower",
+
+        subtitle: "El comienzo de una nueva historia",
+
+        url:
+            "https://dvidblpz.github.io/invitacion_pooh/",
+
+        icon: "fa-heart",
+
+        image:
+            "./images/pooh.jpg",
+
+        message:
+            "Hola Dulce Invitación, me interesa una invitación digital de BabyShower Pooh como la que vi en su catálogo."
+    }
 
 
 ];

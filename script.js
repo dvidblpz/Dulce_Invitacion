@@ -197,7 +197,7 @@ const invitations = [
    {
         id: 9,
 
-        title: "Baby Shower Tematica PooH",
+        title: "Baby Shower Tematica Pooh",
 
         category: "baby-shower",
 
@@ -215,6 +215,29 @@ const invitations = [
 
         message:
             "Hola Dulce Invitación, me interesa una invitación digital de BabyShower Pooh como la que vi en su catálogo."
+    },
+
+   {
+        id: 10,
+
+        title: "Fiesta Disfraces",
+
+        category: "otros",
+
+        categoryName: "Otros",
+
+        subtitle: "Cuando caiga la noche y los secretos despierten, solo los más valientes se atreverán a cruzar el umbral. ¿Te atreves a vivir una noche de pesadilla?",
+
+        url:
+            "https://dvidblpz.github.io/Halloween/",
+
+        icon: "fa-heart",
+
+        image:
+            "./images/halloween.jpg",
+
+        message:
+            "Hola Dulce Invitación, me interesa una invitación digital de Fiesta de Halloween como la que vi en su catálogo."
     }
 
 
